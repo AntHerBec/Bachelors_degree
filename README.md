@@ -1,18 +1,22 @@
 There are 3 main categories into which these codes fall:
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 1) PARTICLE ANALYSIS -> test.py, Plotter.py and Selector.py
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 They complement each other, importing defined classes and functions. Its function is to filter the signal (interesting particle collision events that produce the wanted particles, in this case top antitop
 production) by reducing the background (processes we are not interested in), accounting for the necessary corrections to the data, simulating the remaining backgroung events, obtaining the different 
 uncertainties and calculating the cross section of the top antitop process.
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2) INFERENTIAL STUDY -> Estudio_Accidentes_VariablesTemporales.R and its source data (TABLA_ACCIDENTES_20.xlsx)
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 The only code in R in the repository. Its objective is to study and try to conclude if the provided "temporal variables" (hour of the day, day of the week and month of the year). First, a simple 
 descriptive analysis in order to understand the defined random variables, and an inferential analysis applying various tests to decide whether to reject or not a number of hypotheses, such as if the number 
 of victims is the same given every possible value of the variables.
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 3) PHYSICS SIMULATIONS -> All the others
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
